@@ -1,0 +1,41 @@
+:root {
+  --darktext: #333333;
+  --lighttext: #FEFEFE;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  color: #333333;
+  background: #FEFEFE;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 1px solid lightgray;
+}
+
+.nav-item {
+  border: 1px solid darkgray;
+  padding: 5px;
+  background: lightgray;
+  margin: 5px;
+  width: 50%;
+  text-align: center;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  background: darkgray;
+}
+
+
